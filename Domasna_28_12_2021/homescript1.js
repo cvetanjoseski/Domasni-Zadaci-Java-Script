@@ -1,0 +1,12 @@
+let firstParagraph = document.getElementsByClassName("paragraph");
+let secondParagraph = document.getElementsByClassName("paragraphSecond");
+let firstHeader = document.getElementById("myTitle");
+let textD = document.getElementsByTagName("text")[0];
+let secondH1 = document.getElementsByTagName("h1")[1];
+let firstH3 = document.getElementsByTagName("h3")[0];
+firstHeader.innerText="THIS IS CHANGED";
+firstParagraph[0].innerText="HI WORLD WHATS UP";
+secondParagraph[0].innerText="I CHANGED MY SECOND PARAGRAPH";
+textD.innerText="I ALSO CHANGED THISSS"
+secondH1.innerText = "THIS IS NEW H1!";
+firstH3.innerText = "I write something BEAUTIFUL"
